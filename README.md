@@ -14,7 +14,7 @@ Installation
 
     Clone the repository:
 
-git clone https://github.com/your-username/user-authentication-system.git
+git clone https://github.com/0xp0tato/user-authentication-system
 
 Change into the project directory:
 
