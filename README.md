@@ -37,11 +37,12 @@ Usage
     Open your web browser and navigate to http://localhost:3000.
 
     Use the following endpoints to interact with the authentication system:
-        POST /api/register - Register a new user.
-        POST /api/login - Log in with an existing user.
-        POST /api/user/password - Change the password of the logged-in user.
-        GET /api/user - Retrieve details of the logged-in user.
-        POST /api/user/reset-password - Send a password reset email to the user.
+        POST /api/user/register - Register a new user.
+        POST /api/user/login - Log in with an existing user.
+        POST /api/user/changepassword - Change the password of the logged-in user.
+        GET /api/user/loggeduser - Retrieve details of the logged-in user.
+        POST /api/user/send-reset-password-email - Send a password reset email to the user.
+        POST /api/user/reset-password/:id/:token - Reset the password of an existing user with id->:id and token->:token
 
 Contributing
 
